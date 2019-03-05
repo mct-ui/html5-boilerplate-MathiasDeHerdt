@@ -4,8 +4,13 @@
     Default markup for page level elements
 */
 
-html {
-
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:"helvetica neue", helvetica, arial, sans-serif;
+    color: #111
+    padding: 24px 24px 0;
+    background:
 }
 
 /*
@@ -15,10 +20,15 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection{
+     background: #E85E00;
+     color: white;
+     text-shadow: none;
+ }
 
-}
 
-::selection {
-
-}
+ ::selection{
+     background: #E85E00;
+     color: white;
+     text-shadow: none;
+ }
